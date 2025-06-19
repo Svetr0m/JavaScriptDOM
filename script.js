@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // === POPUP ===
   const popup = document.getElementById("popup");
   const openPopup = document.getElementById("openPopup");
   const closePopup = document.getElementById("closePopup");
@@ -12,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // === IMAGE PICKER ===
   const imagePicker = document.getElementById("imagePicker");
   const gallery = document.getElementById("gallery");
 
@@ -32,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
     imagePicker.dispatchEvent(new Event("change"));
   }
 
-  // === LIGHTBOX ===
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightboxImg");
   const lightboxClose = document.getElementById("lightboxClose");
@@ -59,7 +56,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // === ACCORDION ===
   const accordionHeaders = document.querySelectorAll(".accordion-header");
 
   accordionHeaders.forEach(header => {
@@ -71,7 +67,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // === CAROUSEL ===
   const track = document.getElementById("carouselTrack");
   const prev = document.getElementById("prev");
   const next = document.getElementById("next");
